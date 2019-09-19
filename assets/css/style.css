@@ -1,0 +1,143 @@
+@import "./reset.css";
+@import "./fonts.css";
+
+html {
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(43, 43, 43);
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+section {
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  margin: 20px 0 15px;
+}
+
+h2 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 1.1;
+  margin: 15px 0 10px;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 10px 0 5px;
+}
+
+a {
+  color: rgb(0, 170, 129);
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 70px;
+  background: rgb(204, 243, 170);
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
+}
+
+.main-nav ul {
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-nav li {
+  margin: 15px 15px;
+}
+
+.main-nav a {
+  color: rgb(100, 100, 100);
+  transition-property: color, font-size, font-weight;
+  transition-duration: 0.5s;
+}
+
+.main-nav a:hover {
+  color: rgb(40, 40, 40);
+  font-size: 1.8rem;
+  font-weight: 700;
+  transition-property: color, font-size;
+  transition-duration: 0.2s;
+}
+
+.resume {
+  padding: 15px;
+}
+
+.resume figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+
+.resume figure img {
+  width: 200px;
+  height: auto;
+  border: 1px solid rgb(204, 243, 170);
+  border-radius: 50%;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+  transition-property: box-shadow, width;
+  transition-duration: 0.3s;
+
+}
+
+.resume figure img:hover {
+  box-shadow: 0 0 15px 5px rgba(0,0,0,0.3);
+  width: 220px;
+  transition-property: box-shadow, width;
+  transition-duration: 0.3s;
+}
+
+.resume h1 {
+  text-align: center;
+}
+
+#contact-info ul {
+  margin-left: 15px;
+  list-style: circle;
+}
+
+#contact-info span {
+  font-weight: 700;
+}
+
+pre {
+  padding: 10px;
+  font-family: monospace;
+  background: rgb(239, 240, 241);
+}
+
+.footer {
+  background: rgb(204, 243, 170);
+  box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.3);
+}
+
+.footer .wrapper {
+  letter-spacing: 0.1rem;
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
