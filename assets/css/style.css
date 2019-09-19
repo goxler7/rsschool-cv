@@ -1,0 +1,22 @@
+@import "./reset.css";
+@import "./fonts.css";
+
+html {
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+
+
+.header {
+  
+}
