@@ -3,6 +3,7 @@
 ### Contact Info:
 * E-mail: goxler.7@gmail.com
 * Discord: Goxler7#3229
+* Phone number: +7 (999) 620-22-96
 
 ### Summary:
 I want to become a frontend developer. Every day I spent about 8 hours to learn different aspects of web development.
