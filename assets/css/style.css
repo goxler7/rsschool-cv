@@ -19,8 +19,8 @@ section {
 h1 {
   font-size: 2.7rem;
   font-weight: 700;
-  line-height: 1;
-  letter-spacing: 0.2rem;
+  line-height: 1.1;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
   margin: 20px 0 15px;
 }
@@ -28,14 +28,15 @@ h1 {
 h2 {
   font-size: 2.1rem;
   font-weight: 700;
-  line-height: 1;
+  letter-spacing: 0.1rem;
+  line-height: 1.1;
   margin: 15px 0 10px;
 }
 
 h3 {
   font-size: 1.4rem;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.1;
   margin: 10px 0 5px;
 }
 
@@ -113,6 +114,11 @@ a {
   text-align: center;
 }
 
+#contact-info ul {
+  margin-left: 15px;
+  list-style: circle;
+}
+
 #contact-info span {
   font-weight: 700;
 }
@@ -121,4 +127,17 @@ pre {
   padding: 10px;
   font-family: monospace;
   background: rgb(239, 240, 241);
+}
+
+.footer {
+  background: rgb(204, 243, 170);
+  box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.3);
+}
+
+.footer .wrapper {
+  letter-spacing: 0.1rem;
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
